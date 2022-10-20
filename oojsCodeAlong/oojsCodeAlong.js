@@ -84,7 +84,7 @@ Admin.prototype.deleteUser = function(u){
 
 let userOne = new User('ryu@tqb.com', 'Ryu');
 let userTwo = new User('tabitha@tqb.com', 'tabitha');
-let admin = new Admin('ba@tqb.com', 'Bethany Anne')
+let admin = new Admin('ba@tqb.com', 'Bethany Anne');
 
 let users = [userOne, userTwo, admin];
 
