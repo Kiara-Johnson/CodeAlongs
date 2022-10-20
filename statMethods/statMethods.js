@@ -22,7 +22,7 @@ class Person {
      
     }
     birthday(){
-        this.birthdate = CurrentDate
+        this.birthdate = CurrentDate;
       console.log("It's your birthday!");
     }
 
@@ -39,6 +39,15 @@ class Person {
     constructor(specialty, favoriteDish){
         this.specialty = specialty;
         this.favoriteDish = favoriteDish;
+    }
+    mealPrep(){
+        console.log("Time to prep.");
+    }
+    cooking(){
+        console.log("Cooking time.");
+    }
+    presentMeal(){
+        console.log("Here's your meal.");
     }
   };
 
