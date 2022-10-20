@@ -43,3 +43,5 @@ class Person {
   };
 
 //   let chefOne = new Chef()
+
+//coding with a migraine is interesting
